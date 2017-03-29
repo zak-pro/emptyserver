@@ -25,14 +25,14 @@ app.use( express.static( "public" ) );
 
 //setup view to index page
 app.get('/', function (req, res) {
-    res.json({
+   /* res.json({
         _id: 'String',
         playerName: 'String',
         level: 'String',
         expirience: 'String',
         mass: 'Array',
         timeSpan: 'String'
-    })
+    })*/
 });
 
 //set environment variables for azure
