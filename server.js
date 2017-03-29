@@ -8,7 +8,7 @@ var path = require('path');         //define path
 var os = require('os');             //define os
 
 //get ip addresses
-/*var interfaces = os.networkInterfaces();
+var interfaces = os.networkInterfaces();
 var addresses = [];
 for (var k in interfaces) {
     for (var k2 in interfaces[k]) {
@@ -17,7 +17,7 @@ for (var k in interfaces) {
             addresses.push(address.address);
         }
     }
-}*/
+}
 
 // set the view engine to ejs
 app.set('view engine', 'ejs');
@@ -37,7 +37,6 @@ var server = app.listen(app.get('port'), function () {  //http server listen
 });
 
 //export modules for testing
-/*module.exports = {
+module.exports = {
     addresses: addresses
 };
-*/
