@@ -19,6 +19,7 @@ for (var k in interfaces) {
 
 
 app.get('/', function (req, res) {
+    var ipaddresses = addresses;
     res.send("HELLO!");
 });
 
@@ -28,4 +29,7 @@ app.set('port', process.env.PORT || 8080);
 var server = app.listen(app.get('port'), function () {  //http server listen
     var host = server.address().address;
     var port = server.address().port;
+
+
+    console.log('ip addres = ' + addresses);
 });
