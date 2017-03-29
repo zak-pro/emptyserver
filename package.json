@@ -1,25 +1,20 @@
 {
-  "name": "demonodeapp",
-  "version": "1.0.0",
-  "description": "",
+  "name": "mfnode022",
+  "version": "1.0.1",
+  "description": "demo node web app with custom deployment",
   "main": "server.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.min.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zak-pro/emptyserver.git"
-  },
-  "author": "sergey",
+  "keywords": [
+    "demo"
+  ],
+  "author": "michael friedrich",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/zak-pro/emptyserver/issues"
-  },
-  "homepage": "https://github.com/zak-pro/emptyserver#readme",
   "dependencies": {
-    "express": "^4.15.2",
-    "ejs": "^2.3.4"
+    "ejs": "^2.3.4",
+    "express": "^4.13.3"
   },
   "devDependencies": {
     "chai": "^3.5.0",
@@ -29,5 +24,9 @@
     "grunt-mocha-test": "^0.13.2",
     "grunt-nsp": "^2.3.1",
     "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": "5.9.1",
+    "npm": "3.7.3"
   }
 }
