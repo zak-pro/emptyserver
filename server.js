@@ -33,7 +33,9 @@ app.set('port', process.env.PORT || 8080);
 
 //http setup
 var server = app.listen(app.get('port'), function () {  //http server listen
-
 });
 
 //export modules for testing
+module.exports = {
+
+};
