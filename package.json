@@ -1,5 +1,5 @@
 {
-  "name": "mfnode022",
+  "name": "zak-pro",
   "version": "1.0.1",
   "description": "demo node web app with custom deployment",
   "main": "server.min.js",
@@ -10,7 +10,7 @@
   "keywords": [
     "demo"
   ],
-  "author": "michael friedrich",
+  "author": "sergey kuzin",
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.3.4",
