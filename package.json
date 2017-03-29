@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/zak-pro/emptyserver#readme",
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "ejs": "^2.3.4"
   },
   "devDependencies": {
     "chai": "^3.5.0",
