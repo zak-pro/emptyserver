@@ -37,6 +37,7 @@ var server = app.listen(app.get('port'), function () {  //http server listen
 });
 
 //export modules for testing
-module.exports = {
+/*module.exports = {
     addresses: addresses
 };
+*/
