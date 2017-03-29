@@ -14,7 +14,7 @@ app.set('view engine', 'ejs');
 app.use( express.static( "public" ) );
 
 //setup view to index page
-app.get('/', function (err, res, req) {
+app.get('/', function (req, res) {
     res.json({
         _id: 'String',
         playerName: 'String',
