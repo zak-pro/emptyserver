@@ -32,7 +32,7 @@ app.get('/', function (req, res) {
         expirience: 'String',
         mass: 'Array',
         timeSpan: 'String'
-    });
+    })
 });
 
 //set environment variables for azure
