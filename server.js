@@ -16,12 +16,12 @@ app.use( express.static( "public" ) );
 //setup view to index page
 app.get('/', function (req, res) {
     res.json({
-        _id: 'String',
-        playerName: 'String',
+        Витек: 'ПИРОРАС!!!',
+       /* playerName: 'String',
         level: 'String',
         expirience: 'String',
         mass: 'Array',
-        timeSpan: 'String'
+        timeSpan: 'String'*/
     })
 });
 
