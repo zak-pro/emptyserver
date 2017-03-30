@@ -14,7 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.3.4",
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "nconf": "^0.8.4"
   },
   "devDependencies": {
     "chai": "^3.5.0",
