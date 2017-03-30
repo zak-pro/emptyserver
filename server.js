@@ -15,7 +15,7 @@ app.use( express.static( "public" ) );
 
 //setup view to index page
 app.get('/', function (req, res) {
-    res.json({
+    res.send({
         _id: 'String',
         playerName: 'String',
         level: 'String',
