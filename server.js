@@ -15,7 +15,7 @@ app.get('/', function (req, res) {
     })
 });
 
-app.set('port', process.env.PORT || config.get('port'));
+app.set('port', process.env.PORT || 8080);
 
 
 var server = app.listen(config.get('port'), function () {
